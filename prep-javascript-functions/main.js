@@ -12,10 +12,10 @@ var minutes = convertHoursToMinutes(2);
 console.log(minutes);
 
 function getGreeting(name) {
-  return name;
+  return 'Hello ' + name;
 }
 var name = getGreeting('World');
-console.log('Hello ' + name);
+console.log(name);
 
 function addAndMultiplyBy5(num1, num2) {
   return (num1 + num2) * 5;
